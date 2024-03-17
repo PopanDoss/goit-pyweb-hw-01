@@ -74,7 +74,8 @@ def show_phone(args) :
 #Функція,що відображає всі записи
 @input_error
 def show_all(book): 
-        return book.__str__() 
+        massage = book.__str__()
+        return massage 
     
 #Функція, що додає дні народження 
 @input_error
